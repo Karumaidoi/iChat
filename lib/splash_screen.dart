@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_signin_button/button_list.dart';
+import 'package:flutter_signin_button/button_view.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});
@@ -8,7 +10,11 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: [],
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Center(child: SignInButton(Buttons.Google, onPressed: () {})),
+        ],
       ),
     );
   }
