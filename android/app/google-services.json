@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420376416777",
+    "project_id": "ichat-3a2aebetsypie",
+    "storage_bucket": "ichat-3a2aebetsypie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420376416777:android:d9fa582bea007dfe161ed8",
+        "android_client_info": {
+          "package_name": "com.bestypiekenya.ichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420376416777-bu6vq4fu6i8rpapj7r82fumdse75h1f0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bestypiekenya.ichat",
+            "certificate_hash": "63624ac199a558c2e5de0fe0d9cf08bbda694941"
+          }
+        },
+        {
+          "client_id": "420376416777-m1nrafq84j8doav7mlsnglugktjej3j6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhoqltNCRblG_lKHsEkhdquob-5i4NDtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420376416777-m1nrafq84j8doav7mlsnglugktjej3j6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
