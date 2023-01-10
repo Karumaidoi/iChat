@@ -11,11 +11,8 @@ class HomePage extends StatelessWidget {
         actions: [
           IconButton(
               onPressed: () {
-                var state = GoogleAuth().signOut();
+                // var state = GoogleAuth().signOut();
 
-                if (state == "SUCCESS") {
-                  print('Logged Out');
-                }
                 // Navigator.of(context)
                 //     .pushReplacement(MaterialPageRoute(builder: (context) {
                 //   return SplashPage();

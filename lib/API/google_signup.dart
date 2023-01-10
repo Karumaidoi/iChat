@@ -29,7 +29,7 @@ class GoogleAuth {
       assert(!user!.isAnonymous);
       assert(await user!.getIdToken() != null);
 
-      final User? currentUser = await _auth.currentUser;
+      final User? currentUser = _auth.currentUser;
       assert(currentUser!.uid == user!.uid);
       SharedPreferences sharedPreferences =
           await SharedPreferences.getInstance();
@@ -43,11 +43,5 @@ class GoogleAuth {
     } catch (e) {
       print(e);
     }
-  }
-
-  Future<String> signOut() async {
-    await googleSignIn.signOut();
-    await _auth.signOut();
-    return "SUCCESS";
   }
 }
